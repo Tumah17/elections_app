@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="../css/voter-reg.css">
+</head>
+<body>
+<div class="container">
+    <form action="./voter_reg.ejs"  method="post">
+        <h2>Registration Form</h2>
+       <div class="form-control">
+            <label for="Fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+        </div>
+
+        <div class="form-control">
+            <label for="Mname">Middle Name</label>
+            <input type="text" id="mname" name="mname" placeholder="Middle Name">
+           
+        </div>
+
+        <div class="form-control">
+            <label for="Lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+           
+        </div>
+
+        <div class="form-control">
+            <label for="date_of_birth">Date Of Birth</label>
+            <input type="date" id="date" name="dob" placeholder="Date of Birth">
+           
+        </div>
+
+        <!-- <div class="form-control">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+           
+        </div> -->
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+</body>
+</html>

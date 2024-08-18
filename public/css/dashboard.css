@@ -1,0 +1,88 @@
+/* Top Navigation Bar Styles */
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f3f3;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; /* Add z-index to ensure it's on top of left nav */
+  }
+  
+  .logo {
+    margin-left: 1em;
+  }
+  
+  .profile-icon {
+    margin-right: 1em;
+  }
+  
+  .logo img, .profile-icon img {
+    height: 2em;
+    width: 3em;
+  }
+  
+  /* Left Side Navigation Bar Styles */
+  .left-nav {
+    position: fixed;
+    top: 64px; /* Adjust to match top nav height */
+    left: 0;
+    width: 200px; /* Adjust to desired width */
+    background-color: #e3dfdf;
+    padding: 1em;
+    height: 100vh; /* Make it full height */
+    overflow-y: auto; /* Add scrollbar if content exceeds height */
+  }
+  
+  .left-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-nav li {
+    margin-bottom: 1em;
+  }
+  
+  .left-nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .left-nav a:hover {
+    background-color: #201ac9;
+  }
+  
+  /* Main Content Area Styles */
+  main {
+    margin-left: 200px; /* Adjust to match left nav width */
+    padding: 2em;
+  }
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 20%;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 1.5rem;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+}
+
+.cube{
+    width: 50%;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 1.5rem;
+}
